@@ -8,13 +8,13 @@
 }
 #img{
     height:50px;
-    left:35%;
-    top:1px;
+    left:15%;
+    top:5px;
     position:relative;
 }
 
 body{
-    background-image: url("http://wallpapercave.com/wp/InfkkQ7.png");
+    background: white;
 }
 img {
     height: 150px;
@@ -26,7 +26,6 @@ img {
 body {
     color: blue;
 }
-{box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -123,9 +122,57 @@ button1 {
     bottom:130px;
     left: -130px;
     position: relative;
-"#burg" {
+    
+}
+
+#burg {
  width:89px;
- height:80px;
+ height:10px;
  
 }
     
+.navbar, .navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 80px;
+}
+
+.nav li {
+    display: inline;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: #444444;
+    transition: 0.7s all linear;
+    height: 100%;
+}
+
+#lower{
+  position: relative;
+  top:300px;
+}
+#img0 {
+  font-family:animation;
+  top:-100px;
+  right: 98px;
+  position:relative;
+}
+
+.compact{
+  text-align: center;
+}
+
+#intro{
+  position:relative;
+  top:150px;
+}
