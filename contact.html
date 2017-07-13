@@ -10,4 +10,93 @@
     </head>
     <body>
         
+        <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="pupupdates.html">Pupdates</a></li>
+                    <li><a href="newpuppychecklist.html">New Puppy Checklist</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="img" src="https://s-media-cache-ak0.pinimg.com/236x/42/c3/40/42c340e6b330ea10d1a036ae66344ac5--dog-logo-design-design-logos.jpg"></img>
+            </div>
+        </nav>
+        
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
     </body>
+    An API is a set of methods and tools that can be used for building software applications.
+
+Google Maps API allows you to display maps on your web site:
+
+
+
+Map data ©2017 GeoBasis-DE/BKG (©2009), Google, Inst. Geogr. Nacional, Mapa GISrael, ORION-ME
+Terms of Use
+
+
+
+Map
+Satellite
+Google Maps in HTML
+This example creates a Google Map in HTML:
+
+Example
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="text-contacts"
+<h1>You could visit us now</h1>
+<p>11 prince street New York,NY</p>

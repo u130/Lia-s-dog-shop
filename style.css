@@ -6,15 +6,30 @@
 .orange{
     background-color:orange;
 }
+
+#myCarousel{
+  position:relative;
+  top:500px;
+}
+
+#lower{
+  width:400px;
+  height:600px;
+  position: relative;
+  top:400px;
+}
+
 #img{
-    height:50px;
-    left:15%;
+    height:77px;
+    width:150px;
+    left:5%;
     top:5px;
     position:relative;
 }
 
 body{
     background: white;
+    color: purple;
 }
 img {
     height: 150px;
@@ -23,8 +38,11 @@ img {
     bottom:-230px;
     position:relative;
 }
-body {
-    color: blue;
+
+#intro{
+  top:250px;
+  position:relative;
+  text-align: center;
 }
 
 /* Slideshow container */
@@ -109,14 +127,15 @@ body {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {opacity: .4;} 
+  to {opacity: 1;}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {opacity: .4;} 
+  to {opacity: 1;}
 }
+
 button1 {
     top:-130px;
     bottom:130px;
@@ -157,22 +176,29 @@ button1 {
     height: 100%;
 }
 
-#lower{
-  position: relative;
-  top:300px;
+#thin{
+  height:5%;
 }
-#img0 {
-  font-family:animation;
-  top:-100px;
-  right: 98px;
+
+.draw{
+  top:1000px;
   position:relative;
 }
 
-.compact{
-  text-align: center;
+#border{
+  padding: 20px;
+  text-align:center;
+  position:relative;
+  top:100px;
+  background:lightgrey;
+  width:100%;
+  height:500px;
 }
 
-#intro{
-  position:relative;
-  top:150px;
+#larger{
+  width:600px;
+  height:300px;
+}
+#text-contacts {
+  color:#00000;
 }
