@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css" type="text/css" />
-        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
         <script type="text/javascript" src="script.js"></script>
-        <link rel="icon" href="http://www.iconshock.com/img_vista/FLAT/communications/jpg/dog_icon.jpg">
+        <link rel="icon" href="https://www.iconshock.com/img_vista/FLAT/communications/jpg/dog_icon.jpg">
         <title>Lia's Dog Shop</title>
     </head>
     <body>
@@ -47,6 +47,9 @@ Example
 <!DOCTYPE html>
 <html>
   <head>
+      <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMLz-AR-gBzs8l0MAErJ81epT8ng3kc6U">
+    </script>
     <style>
       #map {
         height: 400px;
@@ -55,24 +58,110 @@ Example
     </style>
   </head>
   <body>
+      <div id="map">
+        
+        
+    </div>
     <h3>My Google Maps Demo</h3>
-    <div id="map"></div>
     <script>
       function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
+        var uluru = {lat: 40.7224832, lng: -73.9942507};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
+          zoom: 12,
           center: uluru
         });
         var marker = new google.maps.Marker({
+            title:"title",
           position: uluru,
           map: map
         });
       }
+      initMap()
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script>
+   
+   
+<div id="text-contacts"
+<h1>You could visit us now</h1>
+<p>11 prince street New York,NY
+Contack us at:917-145-1556
+dogsonly@gmail.com
+</p>
+   
+ <div id="grey">
+   <form action="https://formspree.io/dogsonly@gmail.com"
+      method="POST">
+      <div class="row">
+        <div class="title">
+          <div class="col-xs-1"></div>
+          <div class="col-xs-10">
+            <h1>Feel free to contact us</h1>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="row">
+          <div class="col-xs-1">
+          </div>
+          <div class="col-xs-2">
+            <label>Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-1">
+          </div>
+          <div class="col-xs-2">
+            <br>
+              <input class="form-control" placeholder="Hello" type="text" name="name">
+            <br>
+          </div>
+          <div class="row">
+          </div>
+          <div class="row">
+            <div class="col-xs-1">
+            </div>
+            <div class="col-xs-2">
+              <label>Favorite animal</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-1">
+            </div>
+            <div class="col-xs-2">
+              <br>
+              <textarea class="form-control" placeholder="Better not be cats" class="form-control"></textarea>
+              <br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-1">
+            </div>
+            <div class="col-xs-2">
+              <label>Feedback</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-1">
+            </div>
+          <div class="col-xs-2">
+            <br>
+              <textarea class="form-control" placeholder="Better not be about cats" class="form-control"></textarea>
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-1">
+          </div>
+          <div class="col-xs-2">
+             <input type="submit" value="submit">
+          </div>
+        </div>
+        </div>
+      </div>
+   </form>
+ </div>
+  
+   
+    
   </body>
 </html>
 
@@ -80,23 +169,3 @@ Example
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="text-contacts"
-<h1>You could visit us now</h1>
-<p>11 prince street New York,NY</p>
