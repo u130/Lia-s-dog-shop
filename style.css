@@ -1,9 +1,9 @@
-.orange{
-    background-color:orange;
+#grey{
+    background:lightgray;
 }
 
-.blue{
-  color:#42B0E2;
+.orange{
+    background-color:orange;
 }
 
 #myCarousel{
@@ -22,7 +22,7 @@
     height:77px;
     width:150px;
     left:5%;
-    top:3px;
+    top:5px;
     position:relative;
 }
 
@@ -143,7 +143,11 @@ button1 {
     
 }
 
-
+#burg {
+ width:89px;
+ height:10px;
+ 
+}
     
 .navbar, .navbar-inverse {
     border-radius: 0;
@@ -175,45 +179,9 @@ button1 {
   height:5%;
 }
 
-#draw{
-  top:800px;
-  background:yellow;
-  left:50px;
-  height:30%;
-}
-
-#puppychecklist{
-  position:relative;
-  top:780px;
-  right:55px;
-  height:380px;
-  float:right;
-  background:orange;
-}
-
 .draw{
+  top:1000px;
   position:relative;
-  text-align:center;
-  width:30%;
-  padding:50px;
-}
-
-#pup{
-  left:30px;
-  width:800px;
-  height:260px;
-  top:400px;
-  height:390px;
-  float:left;
-}
-
-#dec{
-  position:relative;
-  top:405px;
-  width:840px;
-  height:380px;
-  left:400px;
-  
 }
 
 #border{
@@ -227,86 +195,51 @@ button1 {
 }
 
 #larger{
-  position:relative;
-  top:10px;
-  width:1000px;
-  height:400px;
+  width:600px;
+  height:300px;
 }
 #text-contacts {
   color:#00000;
 }
 
-#myCarousel{
-  top:300px;
+#hi{
+    top:500px;
+    width:500px;
+    height:300px;
+    background:yellow; 
+    left:15%;
+    text-align: center;
+    position:relative;
+}
+#larger {
+    height:330px;
+    width:1000px;
 }
 
-#fun{
-  font-family: 'Anton', sans-serif;
+#do {
+    position:relative;
+    top: 700px;
+    width: 700px;
+    background:yellow;
 }
 
-#bottom{
-  position:relative;
-  top:100px;
-  padding:0px;
-  border:0px;
-  background:lightblue;
-  height:400px;
-}
-
-
-.coool a:hover{
-  font-size: 14px;
-  color: #999999;
-  text-decoration: underline;
-
-}
-
-#dog-gif{
-  bottom:710px;
-  position:relative;
-  right:440px;
-}
-
-#row{
- margin-left:0px;
- margin-right:0px;
- 
-}
-
-#rowtwo{
- margin-left:0px;
- margin-right:0px;
-    
-}
-
-#rowthree{
- 
- margin-left:0px;
- margin-right:0px;   
-}
-
-#rowfour{
- 
- margin-left:0px;
- margin-right:0px;   
-}
-
-#rowzero{
- margin-left:0px;
- margin-right:0px; 
-  
-}
-
-#contained{
-  position:relative;
-  top:1000px;
-  width: 100%;
+#shoe-dog {
+    width:500px;
+    left:700px;
+    height:430px;
+    top:240px;
+    position:relative;
 }
 
 
-#send-mail{
-    
+
+
+
+
+#checklist {
+    height:500px;
+    width:500px;
 }
-#grey{
-  background:lightgray;
-}
+
+
+
