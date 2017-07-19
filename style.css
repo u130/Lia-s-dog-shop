@@ -7,8 +7,10 @@
 }
 
 #humble{
-  text-align:center
-  width:;
+  text-align:center;
+  width: 1000px;
+  left: 180px;
+  position: relative;
 }
 
 #img{
@@ -144,10 +146,11 @@ button1 {
 #lower{
   margin: 0;
   position: relative;
-  width: 800px;
+  width: 700px;
   top: 330px;
   left: 420px;
   height:280px;
+  padding: 50px;
 }
 
 .draw{
@@ -168,7 +171,9 @@ button1 {
 #dec{
   position:relative;
   top:305px;
-  width:840px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width:740px;
   height:380px;
   left:400px;
   
@@ -353,22 +358,112 @@ button1 {
   
 }
 
+#gallery-main {
+  width: 400px;
+  height: 300px;
+  margin-left: 0px;
+  margin-right: 0px;
+  right: 50px;
+  position: relative;
+  
+}
+
+#higher {
+  position: relative;
+  bottom: 120px;
+}
+
+#gallery {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .display {
   position:relative;
   top:300px;
   width: 300px;
   height:200px;
+  text-align: center;
+  left: 200px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-#left {
-   background: lightgray;
-   
-}
 #dog {
   height:240px;
   position: relative;
   top:-40px;
 }
-#con {
+
+#left {
+   background: lightgray;
+   width:500px;
+   height:700px;
+   position: relative;
+   top:900px;
+}
+
+
+
+#presentation {
+  top: 400px;
+  position: relative;
+}
+
+#presentation-title {
+  margin-left: 0px;
+  margin-right: 0px;
+  top: 10px;
+  text-align: center;
+}
+
+.tacky {
+  width: 300px;
+  height: 200px;
+}
+
+#left-tak {
+  right: 1080px;
+  bottom:200px;
+  position: relative;
+  width:0px;
   
 }
+
+#right-tak {
+  left: 960px;
+  bottom: 400px;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+  width:0px;
+}
+
+
+
+.buy {
+  position:relative;
+  left: 20px;
+  bottom: 100px;
+  
+}
+
+.holder {
+  width:700px;
+  height: 340px;
+  position: relative;
+  background: lightgray;
+  padding: 20px;
+  top: 140px;
+}
+
+#description {
+  position: relative;
+  text-align: center;
+  bottom: 130px;
+  left: 400px;
+  width: 260px;
+  height: 200px;
+}
+
